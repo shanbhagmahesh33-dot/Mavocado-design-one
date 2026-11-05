@@ -69,7 +69,7 @@ measureTimelines();
 
 // The enquiry uses the same fields and Formspree destination as the live site.
 const enquiryForm=document.querySelector('#footer-enquiry-form');
-enquiryForm.addEventListener('submit',async event=>{event.preventDefault();if(!enquiryForm.reportValidity())return;const submit=enquiryForm.querySelector('[type=submit]'),status=enquiryForm.querySelector('.form-status');submit.disabled=true;status.textContent='Sending your project enquiry…';try{const response=await fetch(enquiryForm.action,{method:'POST',body:new FormData(enquiryForm),headers:{Accept:'application/json'}});if(!response.ok)throw new Error('Submission failed');status.textContent='Thank you. Your project enquiry has been sent to Mavocado.';enquiryForm.reset()}catch{status.textContent='Your enquiry could not be sent. Please try again or email hello@mavocado.in.'}finally{submit.disabled=false}});
+enquiryForm.addEventListener('submit',async event=>{event.preventDefault();if(!enquiryForm.reportValidity())return;const submit=enquiryForm.querySelector('[type=submit]'),status=enquiryForm.querySelector('.form-status');submit.disabled=true;status.textContent='Sending your project enquiry…';try{const response=await fetch(enquiryForm.action,{method:'POST',body:new FormData(enquiryForm),headers:{Accept:'application/json'}});if(!response.ok)throw new Error('Submission failed');status.textContent='Thank you. Your project enquiry has been sent to Mavocado.';enquiryForm.reset()}catch{status.textContent='Your enquiry could not be sent. Please try again or email hello@mavocado.design.'}finally{submit.disabled=false}});
 
 // Natural heading height prevents spare lines becoming blank space on small screens.
 function fitStoryHeading(){const stage=document.querySelector('.story-stage');const height=Math.max(...storyLines.map(line=>line.scrollHeight));if(stage.style.height!==`${height}px`){stage.style.height=`${height}px`;stage.style.setProperty('--cube-depth',`${height/2}px`)}}
@@ -80,3 +80,4 @@ document.querySelectorAll('.faq-item').forEach(item=>item.addEventListener('togg
 function mobileServiceFlow(){if(innerWidth<=700){servicePanels.forEach(panel=>{panel.inert=false;panel.setAttribute('aria-hidden','false');panel.style.transform='none';panel.style.opacity='1'})}else measureTimelines()}
 addEventListener('resize',mobileServiceFlow);mobileServiceFlow();
 if(reduced){document.querySelectorAll('.showcase-video').forEach(video=>{video.autoplay=false;video.pause()})}
+

@@ -19,8 +19,8 @@ document.querySelectorAll('[data-direct-form]').forEach(form=>{
    const data=await response.json().catch(()=>null);
    if(!response.ok||!data||data.ok===false||data.errors?.length){
     const fieldNames={name:'Name',email:'Email Address',company:'Company Name',link:'Website Or App Link',review:'What You’d Like Reviewed',details:'Project Details'};
-    let message='We couldn’t submit your request. Your details are still here. Please try again, or email hello@mavocado.in.';
-    if(response.status===429)message='Too many requests right now. Your details are saved in this form. Please try again later or email hello@mavocado.in.';
+    let message='We couldn’t submit your request. Your details are still here. Please try again, or email hello@mavocado.design.';
+    if(response.status===429)message='Too many requests right now. Your details are saved in this form. Please try again later or email hello@mavocado.design.';
     else if(data?.errors?.length){const fields=data.errors.map(error=>fieldNames[error.field]).filter(Boolean);if(fields.length)message='Please check '+[...new Set(fields)].join(', ')+' and try again. Your other details are still here.'}
     throw new Error(message);
    }
@@ -30,8 +30,9 @@ document.querySelectorAll('[data-direct-form]').forEach(form=>{
    confirmation.querySelector('#submission-copy').textContent=audit?'Thanks for sharing the details. We’ll review your audit request and reply to the email address you provided.':'Thanks for telling us about your project. We’ll review the details and reply to the email address you provided.';
    returnFocus=button;const parentDialog=form.closest('dialog');if(parentDialog?.open)parentDialog.close();
    requestAnimationFrame(()=>{if(!confirmation.open)confirmation.showModal()});
-  }catch(error){status.dataset.state='error';status.textContent=error.name==='AbortError'?'We couldn’t confirm your submission in time. Your details are still here. Please try again or email hello@mavocado.in.':error instanceof TypeError?'Connection interrupted. Your details are still here. Please check your connection and try again.':error.message;status.focus({preventScroll:true});}
+  }catch(error){status.dataset.state='error';status.textContent=error.name==='AbortError'?'We couldn’t confirm your submission in time. Your details are still here. Please try again or email hello@mavocado.design.':error instanceof TypeError?'Connection interrupted. Your details are still here. Please check your connection and try again.':error.message;status.focus({preventScroll:true});}
   finally{clearTimeout(timer);busy.delete(form);button.disabled=false;form.removeAttribute('aria-busy');title.textContent=original;}
  });
 });
 })();
+
