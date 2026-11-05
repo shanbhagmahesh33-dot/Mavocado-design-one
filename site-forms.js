@@ -52,6 +52,7 @@
     throw new Error(result.message || 'The submission service could not accept your request.');
    }
    status.dataset.state = 'success';
+   document.dispatchEvent(new CustomEvent('mavocado:form-success',{detail:{kind:ebook ? 'ebook' : audit ? 'audit' : 'project'}}));
    status.textContent = 'Thank you. Your request has been submitted. We’ll reply to the email address you provided.';
    form.reset();
    if (ebook) form.querySelectorAll('.ebook-download').forEach(el => el.hidden = false);

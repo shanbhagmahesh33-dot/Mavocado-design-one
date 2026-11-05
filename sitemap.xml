@@ -1,6 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://mavocado.design/app-design.html</loc>
+  </url>
+  <url>
+    <loc>https://mavocado.design/avenor.html</loc>
+  </url>
+  <url>
     <loc>https://mavocado.design/backbar.html</loc>
   </url>
   <url>
@@ -25,7 +31,13 @@
     <loc>https://mavocado.design/blogs.html</loc>
   </url>
   <url>
+    <loc>https://mavocado.design/brand-identity.html</loc>
+  </url>
+  <url>
     <loc>https://mavocado.design/contact.html</loc>
+  </url>
+  <url>
+    <loc>https://mavocado.design/design-systems.html</loc>
   </url>
   <url>
     <loc>https://mavocado.design/dischargeready.html</loc>
@@ -58,10 +70,31 @@
     <loc>https://mavocado.design/pawmitra.html</loc>
   </url>
   <url>
+    <loc>https://mavocado.design/privacy.html</loc>
+  </url>
+  <url>
+    <loc>https://mavocado.design/roomies.html</loc>
+  </url>
+  <url>
+    <loc>https://mavocado.design/saas-dashboard-design.html</loc>
+  </url>
+  <url>
     <loc>https://mavocado.design/services.html</loc>
   </url>
   <url>
     <loc>https://mavocado.design/studio.html</loc>
+  </url>
+  <url>
+    <loc>https://mavocado.design/ux-audit-consulting.html</loc>
+  </url>
+  <url>
+    <loc>https://mavocado.design/ux-research-strategy.html</loc>
+  </url>
+  <url>
+    <loc>https://mavocado.design/website-design.html</loc>
+  </url>
+  <url>
+    <loc>https://mavocado.design/website-development.html</loc>
   </url>
   <url>
     <loc>https://mavocado.design/website-enquiry-ux.html</loc>
@@ -69,7 +102,4 @@
   <url>
     <loc>https://mavocado.design/work.html</loc>
   </url>
-  <url><loc>https://mavocado.design/website-development.html</loc></url>
-  <url><loc>https://mavocado.design/avenor.html</loc></url>
 </urlset>
-
