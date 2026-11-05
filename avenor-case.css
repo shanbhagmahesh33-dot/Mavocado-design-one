@@ -1,0 +1,6 @@
+/* Avenor media follows the shared case-study layout. */
+.avenor-walkthrough{margin:0 0 48px;}
+.avenor-walkthrough video{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#101010;border:0;border-radius:0;}
+.avenor-walkthrough figcaption{font-size:13px;line-height:1.6;color:#969996;margin-top:12px;}
+.case-cover .case-zoom img,.experience-grid .cs-shot img{aspect-ratio:3/2;object-fit:contain;height:auto;}
+@media(max-width:700px){.avenor-walkthrough{margin-bottom:32px;}}
