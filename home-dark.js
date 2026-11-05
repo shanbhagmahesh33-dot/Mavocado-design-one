@@ -155,3 +155,4 @@
  if(!reduced.matches&&matchMedia('(hover:hover) and (pointer:fine)').matches){addEventListener('pointermove',e=>{if(e.target.closest('dialog')){cursor.style.display='none';return;}cursor.style.display='block';cursor.style.left=e.clientX+'px';cursor.style.top=e.clientY+'px';cursor.classList.toggle('over-link',!!e.target.closest('a,button,summary'));});document.addEventListener('pointerleave',()=>cursor.style.display='none');}
 })();
 
+

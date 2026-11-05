@@ -38,3 +38,4 @@ setInterval(()=>{if(playing&&!paused&&synth.speaking){const now=performance.now(
 window.addEventListener('pagehide',stop);draw();
 })();
 
+

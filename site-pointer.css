@@ -1,0 +1,14 @@
+/* Shared desktop pointer; native cursors remain available for touch and typing. */
+.custom-cursor,.cursor-dot,.popup-cursor{display:none!important}
+html.cursor-ready,html.cursor-ready *{cursor:auto}
+html.cursor-ready input,html.cursor-ready textarea,[contenteditable="true"]{cursor:text}
+.mavocado-pointer{display:none;position:fixed!important;left:0!important;top:0!important;width:64px;height:64px;margin:0!important;padding:0!important;border:0!important;background:transparent!important;pointer-events:none!important;z-index:2147483647!important;overflow:visible!important}
+.mavocado-pointer svg{display:block;width:29px;height:33px;filter:drop-shadow(0 1px 1px #ffffff99)}
+.mavocado-pointer span{display:block;width:max-content;margin:0 0 0 24px;padding:3px 8px;border-radius:5px;background:#1c1e1c;color:#fff;font:600 11px/1.4 Arial,sans-serif}
+.mavocado-pointer.is-link span{background:#080ed2}
+.mavocado-pointer.is-pressed svg{transform:scale(.9);transform-origin:7px 5px}
+@media(hover:hover) and (pointer:fine){
+ html.mavocado-pointer-active,html.mavocado-pointer-active *{cursor:none!important}
+ .mavocado-pointer.is-visible{display:block!important}
+}
+

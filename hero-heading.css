@@ -1,0 +1,13 @@
+/* Explicit two-line homepage heading. */
+.dark-home .hero .hero-intro h1.hero-heading43{
+ font-size:clamp(18px,5.1vw,92px)!important;
+ line-height:1.08!important;letter-spacing:-.045em!important;
+ max-width:none;width:100%;margin:0;
+}
+.dark-home .hero h1.hero-heading43>span{display:block;white-space:nowrap}
+.dark-home .hero h1.hero-heading43 em{
+ font-size:1em;line-height:inherit;color:var(--lime);white-space:nowrap;
+}
+.form-status[data-state="error"]{color:#c43b3b}
+.form-status[data-state="success"]{color:inherit}
+

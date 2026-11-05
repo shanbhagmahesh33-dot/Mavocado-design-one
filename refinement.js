@@ -81,3 +81,4 @@ function mobileServiceFlow(){if(innerWidth<=700){servicePanels.forEach(panel=>{p
 addEventListener('resize',mobileServiceFlow);mobileServiceFlow();
 if(reduced){document.querySelectorAll('.showcase-video').forEach(video=>{video.autoplay=false;video.pause()})}
 
+
