@@ -78,3 +78,11 @@
   }
  }, true);
 })();
+
+/* Preselect the development service for detail-page enquiries. */
+(() => {
+ function selectDevelopment(){document.querySelectorAll('select[name="service"]').forEach(select=>{if([...select.options].some(option=>option.value==='development')){select.value='development';select.dispatchEvent(new Event('change',{bubbles:true}));}});}
+ if(new URLSearchParams(location.search).get('service')==='website-development') selectDevelopment();
+ document.addEventListener('click',event=>{if(event.target instanceof Element && event.target.closest('[data-service="development"],a[href*="service=website-development"]'))selectDevelopment();},true);
+})();
+

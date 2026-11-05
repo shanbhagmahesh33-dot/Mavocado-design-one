@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mavocado.in/sitemap.xml
+Sitemap: https://mavocado.design/sitemap.xml
+
