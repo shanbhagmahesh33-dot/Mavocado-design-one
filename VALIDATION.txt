@@ -1,7 +1,12 @@
-Version 41
-28 HTML pages checked.
-All local HTML/CSS asset references resolve with exact filenames.
-All JavaScript files pass Node syntax checks.
-All PNG/JPEG/WebP assets decode successfully.
-Local MP4 video included.
-Static export disables unavailable database view-count requests.
+Release 46 — 6 November 2026
+
+36 HTML pages checked: referenced local files exist; JSON-LD parses; shared CSS and one Analytics loader per page.
+Desktop QA: homepage header Work click navigated to work.html.
+Desktop first-row media boxes: Avenor 417.33 x 312.98; Nothing Pay 417.33 x 312.98; DischargeReady 417.34 x 313.00 CSS pixels.
+390px iframe QA: first three work media boxes all 335 x 251.25 CSS pixels; mobile menu Work click navigated to portfolio.
+Homepage: all seven section heading emphasis segments use Instrument Serif italic, rgb(184,240,25).
+Case banner QA: white eyebrow pill text and an 18px dark arrow on the lime CTA, on desktop and mobile.
+GA4 initialization checked on both production hostnames using supplied ID G-TVKCWCVX87; no Analytics loader on preview hosts. Successful enquiry events contain no entered form fields.
+No live form submissions sent during validation.
+No deployment performed; GitHub upload and live Analytics verification remain with the owner.
+Search Console account verification, indexing requests and Google/Instagram search-result inclusion are not completed by this ZIP. See PUBLISH-AND-GOOGLE.md.

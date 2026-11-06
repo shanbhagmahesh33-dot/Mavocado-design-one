@@ -75,6 +75,4 @@ body.dark-inner{--text:#f2f1ed;--ink:#f2f1ed;--muted:#999;--line:#303030;--bg:#1
 .dark-inner .portfolio-image{aspect-ratio:4/3}
 .dark-inner .editorial-footer .footer-project-socials>a{color:#151515;opacity:1}.dark-inner .editorial-footer .footer-project-socials .social-icon{fill:currentColor;filter:none;opacity:1}.dark-inner .editorial-footer .footer-project-socials>a:hover{color:var(--blue)}
 
-/* Match the Avenor thumbnail canvas: no coloured letterboxing. */
-.dark-inner .portfolio-card[href="avenor.html"] .portfolio-image{aspect-ratio:3/2;background:#b8f019!important;}
-.dark-inner .portfolio-card[href="avenor.html"] .portfolio-image>img{width:100%;height:auto!important;aspect-ratio:3/2;object-fit:contain;display:block;}
+
