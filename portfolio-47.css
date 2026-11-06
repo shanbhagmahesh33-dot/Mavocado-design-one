@@ -4,3 +4,6 @@
 .project-row[href="aariva.html"] .project-float,.project-row[href="avenor.html"] .project-float{background:#b8ef0a;aspect-ratio:3/2}
 .project-row[href="aariva.html"] .project-float img,.project-row[href="avenor.html"] .project-float img{width:100%;height:100%;object-fit:contain}
 @media(max-width:700px){.aariva-case .case-sidebar a{padding:12px 16px!important;gap:9px;min-height:44px;flex-shrink:0}.aariva-case .case-sidebar a svg{width:16px;height:16px;flex:0 0 16px}}
+
+/* Saanjh: keep the complete blue device in frame. */
+.dark-inner .portfolio-card[href="saanjh.html"] .portfolio-image{aspect-ratio:4/3;background:#c4f14d!important}.dark-inner .portfolio-card[href="saanjh.html"] .portfolio-image>img{object-fit:cover!important;object-position:center;width:100%;height:100%!important}.project-row[href="saanjh.html"] .project-float{background:#c4f14d;aspect-ratio:3/2}.project-row[href="saanjh.html"] .project-float img{width:100%;height:100%;object-fit:contain}
