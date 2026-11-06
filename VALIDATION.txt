@@ -1,12 +1,15 @@
-Release 46 — 6 November 2026
+Release 47 — 6 November 2026
 
-36 HTML pages checked: referenced local files exist; JSON-LD parses; shared CSS and one Analytics loader per page.
-Desktop QA: homepage header Work click navigated to work.html.
-Desktop first-row media boxes: Avenor 417.33 x 312.98; Nothing Pay 417.33 x 312.98; DischargeReady 417.34 x 313.00 CSS pixels.
-390px iframe QA: first three work media boxes all 335 x 251.25 CSS pixels; mobile menu Work click navigated to portfolio.
-Homepage: all seven section heading emphasis segments use Instrument Serif italic, rgb(184,240,25).
-Case banner QA: white eyebrow pill text and an 18px dark arrow on the lime CTA, on desktop and mobile.
-GA4 initialization checked on both production hostnames using supplied ID G-TVKCWCVX87; no Analytics loader on preview hosts. Successful enquiry events contain no entered form fields.
-No live form submissions sent during validation.
-No deployment performed; GitHub upload and live Analytics verification remain with the owner.
-Search Console account verification, indexing requests and Google/Instagram search-result inclusion are not completed by this ZIP. See PUBLISH-AND-GOOGLE.md.
+37 HTML pages checked: referenced local files exist and JSON-LD parses.
+New Aariva page: all internal anchors resolve, unique IDs, unique title/description, canonical and share metadata.
+Homepage selected-work order verified: Aariva Hospitals, PawMitra, Avenor Estates, FORME.
+Homepage Aariva link clicked and opened aariva.html.
+Work page Websites filter displays Aariva and Avenor with matching 4:3 preview boxes (417.33 × 312.98 CSS pixels on desktop).
+Aariva case study uses the established sidebar, sections, image viewer, related work, footer and enquiry dialogs.
+Four Aariva mockups verified visually: lime backgrounds, black iPads, complete device boundaries, no design-concept labels.
+Image enlargement opens the full 1536px preview and closes correctly.
+390px case study iframe and 360px Work iframe: document width equals viewport width; no horizontal overflow.
+Mobile case navigation: 12px 16px padding and 44px control height; active section is identified by aria-current=location.
+Existing GA4 configuration, email forms, CNAME and .nojekyll retained.
+GitHub ZIP includes site files at archive root; no local QA page, preview manifest or source PDF.
+The package has not been uploaded to the user's GitHub repository.

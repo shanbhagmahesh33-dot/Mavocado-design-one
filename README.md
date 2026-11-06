@@ -40,3 +40,13 @@ Edit the HTML page for copy and structure. The latest visual overrides are in `p
 Validation covers ZIP integrity, JavaScript parsing, local HTML/CSS asset references, page anchors, image decoding and video metadata. It cannot guarantee a third-party service’s availability or configure a GitHub repository automatically.
 
 GitHub publishing reference: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
+
+## Release 47: Aariva Hospitals
+- Homepage selected work: Aariva replaces Nothing Pay; Avenor Estates replaces BackBar.
+- Work listing: Aariva added under Websites; existing projects retained.
+- New case study: aariva.html, matching the shared case-study template.
+- Four lime-green / black-iPad images in assets/work/aariva/.
+- Public portfolio copy and preview shots omit design-concept labels.
+- New sitemap entry and unique page/share metadata.
+- Extract the ZIP, then upload its contents at repository root. No build or npm install required.

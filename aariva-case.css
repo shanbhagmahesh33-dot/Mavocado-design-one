@@ -1,0 +1,7 @@
+/* Shared case-study template; imagery is shown in full. */
+.aariva-case .case-cover .case-zoom,.aariva-case .experience-grid .cs-shot{background:#b8ef0a;overflow:hidden}
+.aariva-case .case-cover .case-zoom img,.aariva-case .experience-grid .cs-shot img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain}
+.aariva-palette{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px;margin-top:30px}
+.aariva-palette>span{font-size:11px;line-height:1.5;color:#b5b5b5;display:flex;flex-direction:column;gap:10px}
+.aariva-palette>span:before{content:'';display:block;height:70px;border-radius:9px;background:var(--swatch);border:1px solid #ffffff22}
+@media(max-width:700px){.aariva-palette{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}
