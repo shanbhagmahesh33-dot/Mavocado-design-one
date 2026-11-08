@@ -1,0 +1,12 @@
+{
+  "method": "Built-in image generation",
+  "common": "Use case: compositing / ui-mockup. Create ONE polished 1536x1024 landscape portfolio image for Casa Velora resort website. Input1 is the precise MacBook reference: copy its realistic cobalt-blue MacBook, black notch bezel, physical keyboard and trackpad, front-facing angle, studio lighting and soft floor shadow. Input2 is COLOR reference only: use Aariva lime green #bcf012 across the whole seamless background, with subtle same-hue shading, no white/blue bands. Input3 is the website screen content, preserve its real Casa Velora typography, architecture photos, branding, colors, text and layout. Replace ONLY the MacBook screen with Input3, fitting the entire UI screen clearly within the bezel, no browser bars, no scrollbars, no cursor, no changed design, no extra caption outside device. Entire laptop visible, centered optically, generous consistent safe padding on all four sides, no cropped screen, edges or base. Same laptop size and placement across this series. Clean photoreal hardware, crisp readable screen. 3:2 image.",
+  "views": [
+    "01-homepage",
+    "02-suites",
+    "03-amenities",
+    "04-dining",
+    "05-experiences",
+    "06-ocean"
+  ]
+}
