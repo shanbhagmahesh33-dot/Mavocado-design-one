@@ -1,3 +1,13 @@
+# Nueform portfolio update
+
+Nueform is now the first project on the homepage and Work page. Seven silver MacBook Air shots, the Nueform work-detail page, a local storefront preview and consistent related-work margins are included.
+
+For an existing repository, upload the **contents** of Mavocado-Nueform-GitHub-Update.zip to the repository root and overwrite matching files. The complete ZIP can also replace the full website folder. Keep GitHub Pages set to the root of your existing branch. No build step is required.
+
+See NUEFORM-UPDATE.md for the change list.
+
+---
+
 # Mavocado Design — GitHub Pages website
 
 Version 41. Ready-to-serve HTML, CSS, JavaScript, images, fonts, guides and local video. No npm install or build is required.
