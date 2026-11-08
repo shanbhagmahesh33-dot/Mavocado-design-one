@@ -1,0 +1,8 @@
+/* Portfolio frame ratios follow the complete source image. */
+.dark-inner .portfolio-card .portfolio-image{height:auto!important;min-height:0!important;aspect-ratio:3/2!important;padding:0!important;overflow:hidden;display:block!important;line-height:0;background:transparent!important}
+.dark-inner .portfolio-card .portfolio-image>img{display:block!important;position:static!important;inset:auto!important;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:3/2!important;object-fit:contain!important;transform:none!important;margin:0!important}
+.related-work{padding-inline:24px!important;box-sizing:border-box}.malt-yard-case .pip-palette{grid-template-columns:repeat(4,minmax(0,1fr))}
+.project-row[href="malt-yard.html"] .project-float{aspect-ratio:3/2;background:transparent}.project-row[href="malt-yard.html"] .project-float img{width:100%;height:auto;display:block}
+.malt-yard-case .case-cover img,.malt-yard-case .cs-shot img{width:100%!important;height:auto!important;object-fit:contain!important;display:block;aspect-ratio:3/2}
+.case-hero .inner-hero-actions>.button{background:var(--lime,#b8ef0a)!important;color:#111!important;border-color:var(--lime,#b8ef0a)!important}
+@media(max-width:700px){.related-work{padding-inline:20px!important}.malt-yard-case .pip-palette{grid-template-columns:repeat(2,minmax(0,1fr))}}

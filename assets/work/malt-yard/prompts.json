@@ -1,0 +1,13 @@
+{
+  "method": "Built-in image generation",
+  "reference": "Nueform 01-homepage-macbook.webp",
+  "direction": "Same silver front-view MacBook Air and Mavocado cobalt blue backdrop. Replace screen using actual Malt Yard UI capture. Keep entire laptop and screen composition visible.",
+  "views": [
+    "Homepage",
+    "Pour story",
+    "Beer collection",
+    "Menu book",
+    "Team",
+    "Visit planner"
+  ]
+}
