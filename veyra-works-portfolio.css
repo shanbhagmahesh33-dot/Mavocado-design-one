@@ -1,0 +1,15 @@
+/* Veyra Works uses the full source shot at every size. */
+.gallery-card[href="veyra-works.html"]{background:#bcf012!important}
+.gallery-card[href="veyra-works.html"] img{width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important;transform:none!important}
+.project-row[href="veyra-works.html"] .project-float{aspect-ratio:3/2!important;background:#bcf012!important;overflow:hidden}
+.project-row[href="veyra-works.html"] .project-float img{display:block;width:100%!important;height:auto!important;aspect-ratio:3/2;object-fit:contain!important;transform:none!important}
+.dark-inner .portfolio-card[href="veyra-works.html"] .portfolio-image{height:auto!important;min-height:0!important;aspect-ratio:3/2!important;padding:0!important;background:#bcf012!important;line-height:0}
+.dark-inner .portfolio-card[href="veyra-works.html"] .portfolio-image>img{display:block!important;position:static!important;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;transform:none!important;margin:0!important}
+.veyra-works-case .case-cover,.veyra-works-case .case-zoom,.veyra-works-case .cs-shot{background:#bcf012!important}
+.veyra-works-case .case-cover img,.veyra-works-case .cs-shot img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;transform:none!important}
+.veyra-works-case .case-zoom,.veyra-works-case .cs-shot{height:auto!important;aspect-ratio:auto!important;line-height:0}
+.veyra-works-case .pip-palette{grid-template-columns:repeat(4,minmax(0,1fr))}
+.veyra-works-case .related-work{padding-inline:24px!important;box-sizing:border-box}
+@media(max-width:700px){.veyra-works-case .pip-palette{grid-template-columns:repeat(2,minmax(0,1fr))}.veyra-works-case .related-work{padding-inline:20px!important}}
+
+.veyra-works-case .case-cover,.veyra-works-case .cs-shot{overflow:hidden}.veyra-works-case .cs-shot img{aspect-ratio:3/2!important}.veyra-works-case .related-work{margin-inline:0}
