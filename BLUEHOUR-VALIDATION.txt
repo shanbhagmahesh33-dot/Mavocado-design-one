@@ -1,0 +1,9 @@
+index.html: all local references resolve
+work.html: all local references resolve
+bluehour.html: all local references resolve
+Six 1536 × 1024 images; all preview containers use contain fitting.
+Bluehour first in homepage gallery, selected work and Work page.
+One filled Explore Live CTA in the Bluehour case hero.
+Desktop and mobile widths checked in browser; no horizontal overflow.
+Standalone project preserves the original HTML bytes, including fonts, images, board motion and audio.
+Existing CNAME, analytics and All projects button stylesheet preserved.
