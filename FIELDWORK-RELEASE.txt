@@ -1,0 +1,25 @@
+MAVOCADO DESIGN — FIELDWORK RELEASE
+
+Prepared from repository commit: 42a25eb53bcec571cb25dce4b7123652cfd532e3
+
+INCLUDED
+- Six Fieldwork shots using the Malt Yard silver MacBook and Mavocado blue background.
+- Fieldwork first on the homepage Selected Work, homepage gallery and Work page.
+- fieldwork.html: a complete matching case study with image zoom and Explore Live.
+- projects/fieldwork/index.html: the responsive, explorable property website.
+- Category labels contained inside project image frames across portfolio and related work.
+- Whole-image rendering for portfolio mockups.
+- Studio proof below its hero: desktop six columns; tablet/mobile three columns and two rows, divider grid, count-up and hover/focus interaction; reduced-motion support.
+- Updated sitemap. Existing CNAME remains mavocado.design.
+
+PUBLISH TO YOUR EXISTING GITHUB PAGES REPOSITORY
+1. Extract the ZIP; do not upload the ZIP itself.
+2. Merge the extracted files into the root of Mavocado-design-one, preserving all relative folders.
+3. For the smaller UPDATE ZIP, retain all other existing repository files.
+4. Review and commit the changes to main. Pages remains main / (root).
+5. After GitHub Pages finishes deploying, check /, /work.html, /studio.html, /fieldwork.html and /projects/fieldwork/index.html.
+6. Hard-refresh the browser if its previous files remain cached. No DNS change is needed.
+
+The COMPLETE ZIP contains the complete existing site plus this release. The UPDATE ZIP contains only changed/new files and this note. Both are ready to merge into the current repository.
+
+Fieldwork is a fictional portfolio concept. The project enquiry form prepares a local downloadable enquiry; it does not send messages. Existing Mavocado lead forms and analytics configuration are retained.
