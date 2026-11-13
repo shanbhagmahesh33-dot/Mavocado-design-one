@@ -1,0 +1,10 @@
+Image direction
+
+Four generated presentation mockups, created with the built-in image-generation tool. Hardware/composition reference: Fieldwork Website on Silver MacBook.png. Palette: solid Mavocado blue (#080ED2 direction), silver hardware, black bezel. Fully visible keyboard, trackpad and all laptop edges, front/slightly-above view, soft grounded shadow. No captions, pointer labels or badges in image bytes.
+
+Cover/admin: use actual VELAR fleet-admin screenshot, left operations sidebar, Add Vehicle, Porsche/BMW/MINI inventory cards; preserve reference hardware and framing.
+Website: adapt prior VELAR landing shot to India / INR, five sample branches and date/time finder; preserve the car-led hierarchy.
+OTP: show the split sage/white member-access design with Porsche profile and demo-code interaction. This is a styled presentation render.
+Checkout: use actual VELAR checkout screenshot with BMW X5 summary, UPI test choice and simulation notice inside the same silver MacBook.
+
+Full generated image bytes are included, scaled with CSS contain to prevent device cropping.

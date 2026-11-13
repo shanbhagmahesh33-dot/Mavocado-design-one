@@ -1,0 +1,18 @@
+VELAR portfolio replacement — validation
+
+PASS: Existing VELAR entry replaced in place, no duplicate Work card.
+PASS: VELAR first in homepage gallery, selected work and Work grid.
+PASS: Eight existing Bluehour-style case-study section IDs retained.
+PASS: Four new silver Fieldwork MacBook shots on Mavocado blue.
+PASS: Landing, OTP, checkout and admin storytelling updated.
+PASS: Explore Live points to the new /velar/ demo.
+PASS: Legacy /projects/velar/index.html redirects to the new platform.
+PASS: All local references in changed pages and new app entries resolve.
+PASS: Structured data JSON and sitemap XML parse.
+PASS: Desktop Work preview uses object-fit:contain and pill remains inside image.
+PASS: Mobile Work and case-study width375px equals scroll width375px.
+PASS: Full-size image preview opens.
+
+The platform's previous automated suite has 63 passing tests; this update changes portfolio integration and visuals, not those application rules. No production SMS, payment, WhatsApp or telephony service has been connected.
+
+No remote GitHub commit or live mavocado.design publication was performed. This package is prepared for the existing website repository.

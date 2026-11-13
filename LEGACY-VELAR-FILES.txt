@@ -1,0 +1,33 @@
+OPTIONAL UNUSED VELAR FILE CLEANUP
+Do not delete any other website files.
+
+assets/work/velar/01-hero-macbook.webp
+assets/work/velar/02-fleet-macbook.webp
+assets/work/velar/03-experience-macbook.webp
+assets/work/velar/04-getaway-macbook.webp
+assets/work/velar/05-locations-macbook.webp
+assets/work/velar/06-booking-macbook.webp
+projects/velar/app.js
+projects/velar/assets/bmw-3.webp
+projects/velar/assets/bmw-x5.webp
+projects/velar/assets/changi.jpg
+projects/velar/assets/front-911.webp
+projects/velar/assets/front-bmw.webp
+projects/velar/assets/front-mini.webp
+projects/velar/assets/ix1-black.png
+projects/velar/assets/ix1.webp
+projects/velar/assets/marina-bay.jpg
+projects/velar/assets/mini-black.png
+projects/velar/assets/mini-white.png
+projects/velar/assets/mini.webp
+projects/velar/assets/orchard.jpg
+projects/velar/assets/porsche-black.png
+projects/velar/assets/porsche-white.png
+projects/velar/assets/porsche.webp
+projects/velar/assets/series3-black.png
+projects/velar/assets/taycan-black.png
+projects/velar/assets/taycan.webp
+projects/velar/assets/x5-black.png
+projects/velar/assets/x5-white.png
+projects/velar/style.css
+projects/velar/vehicle-visuals.js

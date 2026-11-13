@@ -13,3 +13,10 @@
 @media(max-width:700px){.velar-case .pip-palette{grid-template-columns:repeat(2,minmax(0,1fr))}.velar-case .related-work{padding-inline:20px!important}}
 
 .velar-case .related-work .portfolio-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.velar-case .pip-palette>span:nth-child(n+3){color:#1e2628!important}@media(max-width:700px){.velar-case .related-work .portfolio-grid{grid-template-columns:1fr}}
+
+/* VELAR rental platform refresh — full device images, contained category pills. */
+.gallery-card[href="velar.html"]{background:#080ed2!important}
+.dark-inner a.portfolio-card[href="velar.html"] .portfolio-image{position:relative!important;overflow:hidden!important;isolation:isolate!important;border-radius:12px;aspect-ratio:3/2!important}
+.dark-inner a.portfolio-card[href="velar.html"] .portfolio-image .work-category{position:absolute!important;left:14px!important;top:14px!important;right:auto!important;bottom:auto!important;transform:none!important;max-width:calc(100% - 28px)!important;box-sizing:border-box!important;z-index:3!important;line-height:1.25!important;margin:0!important}
+.velar-scope-note{padding:20px 22px;border:1px solid #ffffff24;background:#ffffff05;color:#aaa;font-size:13px;line-height:1.8;margin-top:28px}.velar-scope-note strong{color:#e4e4e4;font-weight:500}
+@media(max-width:700px){.dark-inner a.portfolio-card[href="velar.html"] .portfolio-image .work-category{left:12px!important;top:12px!important;max-width:calc(100% - 24px)!important}.velar-scope-note{font-size:12px;padding:18px}}
