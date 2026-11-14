@@ -1,0 +1,62 @@
+MAVOCADO DESIGN — FAVICON FIX — 14 NOVEMBER 2026
+
+CHOOSE ONE ZIP
+
+1. Mavocado-Favicon-GitHub-Update.zip (recommended for your current repository)
+   Extract it. Upload ALL extracted files into the ROOT of your existing
+   shanbhagmahesh33-dot/Mavocado-design-one repository, alongside index.html.
+   Overwrite matching files and commit to your publishing branch.
+   Keep every other file and folder. Do not delete the repository contents.
+   This is an update package, not a standalone website.
+
+2. Mavocado-Website-Favicon-Fixed-Full.zip
+   Complete website snapshot with the same favicon fix already applied.
+   Extract it before uploading/pushing. The website files are at the ZIP root.
+   Keep CNAME and .nojekyll in your Git checkout. GitHub's web uploader may not
+   show hidden files; the existing .nojekyll is already present in your repo.
+   Large assets are already in your live repository, so the smaller update
+   package is sufficient and easier if you upload through GitHub's website.
+
+Do NOT upload the ZIP file itself as a website page. Upload its extracted files.
+No npm installation or build step is required.
+
+WHAT CHANGED
+- Existing Mavocado lime-and-blue logo reused, without redesign.
+- 96x96 PNG favicon for Google Search and browsers.
+- Existing 512x512 favicon.png kept at the same stable URL.
+- ICO includes 16, 32, 48, 64, 128 and 256px sizes.
+- 180x180 Apple touch icon.
+- Consistent favicon declarations in all 46 root-level studio HTML pages.
+- Removed competing SVG/older icon declarations from those page heads.
+
+Existing project demo brands retain their own icons. Page body content,
+layout, interactions, portfolio entries, analytics, canonical URLs, robots.txt,
+sitemap.xml and CNAME were not changed. This package is based on current
+repository commit cb426bc650f58f541ed3237347357da890391800; its homepage
+matched the live homepage before this change. Avoid overwriting unrelated
+newer edits if you make further website changes after this snapshot.
+
+AFTER GITHUB PAGES FINISHES DEPLOYING
+1. Open https://mavocado.design/favicon-96x96.png . You should see your logo.
+2. Open https://mavocado.design/favicon.png . You should see the same logo.
+3. In Google Search Console, inspect https://mavocado.design/ and request
+   indexing once. Make sure you select the property that includes that URL.
+4. Google may take several days to several weeks to recrawl and refresh the
+   search-result icon. Display is Google's decision and is not guaranteed.
+
+DOMAIN NOTE
+The existing CNAME already specifies mavocado.design and has been preserved.
+This ZIP does not change GoDaddy DNS, GitHub Pages account settings, redirects
+or Search Console. The www address returned a temporary 503 in the earlier
+check. If www still fails after deployment, its DNS/hosting routing needs a
+separate check; a client-side JavaScript redirect would not repair that.
+
+VALIDATION
+- All 46 updated HTML page bodies match the originals exactly.
+- Four icon references in each updated page; every referenced file exists.
+- PNG dimensions and all ICO sizes checked.
+- Original favicon.png, CNAME, robots.txt and other unmodified source files
+  preserved. Full ZIP excludes only Git's internal .git history directory.
+
+Google reference:
+https://developers.google.com/search/docs/appearance/favicon-in-search
