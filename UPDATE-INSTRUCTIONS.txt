@@ -1,0 +1,1 @@
+Upload the two HTML files to your existing GitHub repository root, replacing the matching files. This update removes the large detail-page illustrations from the two new blogs. The existing text-first hero, audio player, PDF download, sharing and sidebar navigation remain intact. Blog list thumbnails remain unchanged. Apply over the previous blog-template update.
