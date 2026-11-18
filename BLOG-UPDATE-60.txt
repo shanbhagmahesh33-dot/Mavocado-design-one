@@ -1,0 +1,7 @@
+Mavocado journal update 60
+
+Extract this ZIP and upload its contents into the existing GitHub repository root, replacing matching files. Keep the assets folder structure. This update requires the preceding responsive visuals/blogs release.
+
+Includes: date and author metadata on both new cards; two-line card summaries; View Article action; matching two-line white/lime article heroes; existing icon-led sidebar style with shorter labels; the existing audio player, downloadable complete PDFs and share controls. Full MP3 narration is bundled for both articles, using the established Mavocado Article Narration voice.
+
+Audio durations: redesign 4:01; enquiry forms 3:52. All local references and sidebar targets were checked; PDF text and audio file structure verified. A browser security restriction prevented a fresh interactive playback/layout recheck during this update. Existing audio and sharing scripts are reused. No live deployment performed.

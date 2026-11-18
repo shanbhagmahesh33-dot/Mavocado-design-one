@@ -1,0 +1,23 @@
+/* Journal additions use the established article components and hierarchy. */
+.article-card.journal-new60 > div > p {
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+  line-height: 1.5 !important;
+  min-height: 3em;
+  max-height: 3em;
+}
+.journal-detail60 .article-sidebar nav a {
+  white-space: normal !important;
+  overflow: visible;
+  align-items: center;
+  font-size: 13px !important;
+  line-height: 1.4 !important;
+}
+.journal-detail60 .article-sidebar nav a .content-icon { flex: 0 0 16px; }
+.journal-detail60 .article-sidebar nav a span { min-width: 0; overflow-wrap: normal; }
+@media(max-width:700px) {
+  .journal-detail60 .article-sidebar nav a { font-size: 12px !important; }
+}
