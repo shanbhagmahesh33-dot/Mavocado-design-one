@@ -1,0 +1,76 @@
+/* Release 59: readable hierarchy, untrimmed project shots and unified industry art. */
+body .industry-stack-row .service-image,
+body .industry-stack-row .service-stack-card .service-image {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+  aspect-ratio: 3 / 2 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  overflow: hidden !important;
+  border-radius: 17px;
+}
+body .industry-stack-row .service-image img {
+  position: static !important;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  aspect-ratio: 3 / 2 !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  transform: none !important;
+  filter: none !important;
+  mix-blend-mode: normal !important;
+}
+/* Keep spacing outside the coloured source artwork. Do not paint a second colour
+   behind its rounded corners or change the image's intrinsic aspect ratio. */
+body.dark-inner:is(.velar-case,.fieldwork-case,.bluehour-case,.casa-velora-case) .case-cover {
+  background: transparent !important;
+  padding: 0 24px 50px !important;
+  line-height: 0;
+  border: 0 !important;
+}
+body.dark-inner:is(.velar-case,.fieldwork-case,.bluehour-case,.casa-velora-case) :is(.case-zoom,.cs-shot) {
+  background: transparent !important;
+  border: 0 !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+  height: auto !important;
+  overflow: hidden;
+}
+body.dark-inner:is(.velar-case,.fieldwork-case,.bluehour-case,.casa-velora-case) :is(.case-cover,.cs-shot) img {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+  max-height: none !important;
+  margin: 0 !important;
+  border: 0 !important;
+  filter: none !important;
+  mix-blend-mode: normal !important;
+}
+body #mobile-menu > a:not(.pill):not(.button) { border-bottom: 1px solid #ffffff20 !important; }
+body #mobile-menu { border-color: #ffffff16 !important; }
+.article-cover59 { margin: 0 24px 24px; border-radius: 16px; overflow: hidden; }
+.article-cover59 img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: contain; }
+.article-sources59 { border-top: 1px solid #ffffff20; margin-top: 36px; padding-top: 24px; }
+.article-sources59 a { text-decoration: underline; text-underline-offset: 4px; }
+@media (max-width: 700px) {
+  .dark-home .hero .hero-intro h1.hero-heading43 {
+    font-size: clamp(32px, 8.6vw, 44px) !important;
+    line-height: 1.08 !important;
+    letter-spacing: -.045em !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    text-wrap: balance;
+  }
+  .dark-home .hero h1.hero-heading43 > span,
+  .dark-home .hero h1.hero-heading43 em { white-space: normal !important; }
+  .dark-home .hero h1.hero-heading43 em { font-size: 1em !important; }
+  .dark-home .about-content h2 { font-size: clamp(28px, 7.5vw, 38px) !important; line-height: 1.08 !important; }
+  body.dark-inner:is(.velar-case,.fieldwork-case,.bluehour-case,.casa-velora-case) .case-cover { padding: 0 20px 30px !important; }
+  body .industry-stack-row .service-image { border-radius: 13px; }
+  .article-cover59 { margin: 0 20px 24px; }
+}
