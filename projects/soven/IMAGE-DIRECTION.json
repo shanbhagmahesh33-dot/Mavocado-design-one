@@ -1,0 +1,30 @@
+{
+  "method": "Built-in image generation",
+  "usage": "Fictional interior studio website concept",
+  "assets": [
+    {
+      "asset": "living.webp",
+      "prompt": "A quietly luxurious contemporary living room in a Bengaluru apartment, pale limewash walls, broad walnut panel wall, low sculptural ivory sofa, deep oxblood accent chair, travertine coffee table, linen curtains and a single oversized indoor olive tree. Large panoramic windows overlooking leafy trees, warm late-afternoon sunlight. Editorial wide angle from living area, understated lived-in styling, exquisite real material texture. Architectural Digest photography, no text or people."
+    },
+    {
+      "asset": "dining.webp",
+      "prompt": "An expansive contemporary dining and kitchen interior, sculptural dark walnut dining table, six pale oak and leather chairs, warm off-white stone island, subtle brushed metal pendant, full-height cabinetry and courtyard glazing, soft morning light. Editorial wide architectural photograph, premium warm minimal Indian city residence, believable elegant material detail. No text, no logos, no people."
+    },
+    {
+      "asset": "bedroom.webp",
+      "prompt": "A sophisticated serene contemporary bedroom, warm sand plaster walls, low walnut bed with cream linen, asymmetrical sculptural bedside lamps, dark olive upholstered reading chair, full-height pale curtains, warm oak flooring. Quiet morning daylight. Photorealistic editorial architecture photography, wide composition, premium understated residence. No text, no people."
+    },
+    {
+      "asset": "workspace.webp",
+      "prompt": "A beautiful creative studio workspace with muted terracotta plaster, long oak meeting table, ergonomic dark chairs, softly lit recessed shelf, plants, huge windows, olive acoustic felt panels, calm and inviting afternoon light. Architectural editorial photograph, wide, premium minimal interiors, realistic tactile surfaces. No text, no visible logos, no people."
+    },
+    {
+      "asset": "hospitality.webp",
+      "prompt": "A boutique cafe interior with handmade rust brick counter, brushed steel coffee equipment, caramel leather banquette, dark walnut chairs, cream stone tables, warm glass globe lights and tall arched windows opening onto tropical greenery. Tasteful design-led hospitality, photorealistic editorial interiors photograph. No signs, no text, no people."
+    },
+    {
+      "asset": "courtyard.webp",
+      "prompt": "A serene architect-designed modern home arranged around a lush planted central courtyard, long reflecting pool, warm natural stone walls, walnut sliding screens, cream sculptural seating, large glass panes. View from shaded interior out toward courtyard and distant leafy garden, soft cinematic dusk, warm interior glow. Luxurious yet grounded Indian residence. Photorealistic editorial architectural photography, wide. No people, no text."
+    }
+  ]
+}

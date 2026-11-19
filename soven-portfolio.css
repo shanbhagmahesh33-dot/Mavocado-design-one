@@ -1,0 +1,18 @@
+/* SOVEN portfolio release: full MacBook shots at every breakpoint. */
+.gallery-card[href="soven.html"],.project-row[href="soven.html"] .project-float{background:#080ed2!important}
+.gallery-card[href="soven.html"] img{width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important;transform:none!important}
+.project-row[href="soven.html"] .project-float{aspect-ratio:3/2!important;overflow:hidden}
+.project-row[href="soven.html"] .project-float img{display:block;width:100%!important;height:auto!important;object-fit:contain!important;transform:none!important}
+.dark-inner .portfolio-card[href="soven.html"] .portfolio-image{position:relative!important;isolation:isolate;overflow:hidden!important;height:auto!important;min-height:0!important;aspect-ratio:3/2!important;padding:0!important;background:#080ed2!important;border-radius:12px;line-height:0}
+.dark-inner .portfolio-card[href="soven.html"] .portfolio-image>img{display:block!important;position:static!important;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;transform:none!important;margin:0!important}
+.dark-inner .portfolio-card[href="soven.html"] .work-category{position:absolute!important;top:14px!important;left:14px!important;right:auto!important;bottom:auto!important;transform:none!important;margin:0!important;max-width:calc(100% - 28px)!important;line-height:1.25!important;z-index:3}
+.soven-case .case-cover,.soven-case .case-zoom,.soven-case .cs-shot{height:auto!important;aspect-ratio:auto!important;background:#080ed2!important;line-height:0}
+.soven-case .case-cover img,.soven-case .cs-shot img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;transform:none!important}
+.soven-case .pip-palette{grid-template-columns:repeat(4,minmax(0,1fr))}
+.soven-case .related-work{padding-inline:24px!important;box-sizing:border-box}
+.soven-case .related-work .portfolio-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+body:not(.soven-case) .portfolio-grid .portfolio-card[data-project-copy="compact"] .portfolio-card-copy>p{font-size:clamp(16px,1.2vw,20px)!important;line-height:1.5!important;display:block!important;min-height:3em!important;height:3em!important;margin-bottom:0;overflow:visible!important}
+.portfolio-card[data-project-copy="compact"] .portfolio-card-copy>p span{display:block;white-space:nowrap}
+@media(max-width:700px){.soven-case .pip-palette{grid-template-columns:repeat(2,minmax(0,1fr))}.soven-case .related-work{padding-inline:20px!important}.soven-case .related-work .portfolio-grid{grid-template-columns:1fr}.dark-inner .portfolio-card[href="soven.html"] .work-category{top:12px!important;left:12px!important}}
+
+@media(max-width:360px){.dark-inner footer nav,.dark-inner footer nav a{min-width:0;white-space:normal;overflow-wrap:anywhere}}
