@@ -1,0 +1,34 @@
+const vm = require('node:vm');
+const fs = require('node:fs');
+const assert = require('node:assert/strict');
+const code = fs.readFileSync(require('node:path').join(__dirname, '../analytics.js'), 'utf8');
+function setup(host = 'mavocado.design', initial = false) {
+  let permitted = initial;
+  const listeners = {};
+  const tags = [];
+  const context = {location: {hostname: host, origin: 'https://' + host, pathname: '/contact.html', search: '?private=value'}, Element: class {}};
+  context.window = context;
+  context.MAVOCADO_GA4_ID = 'G-TVKCWCVX87';
+  context.MavocadoPrivacy = {analyticsAllowed: () => permitted};
+  context.document = {title: 'Contact', head: {appendChild: tag => tags.push(tag)}, createElement: () => ({dataset: {}}), addEventListener: (type, fn) => listeners[type] = fn};
+  vm.runInNewContext(code, context);
+  return {context, tags, emit: (type, event = {}) => listeners[type]?.(event), consent: value => {permitted = value; listeners['mavocado:consent-change']?.();}};
+}
+const s = setup();
+assert.equal(s.tags.length, 0, 'No analytics tag before consent');
+s.consent(false); assert.equal(s.tags.length, 0, 'Reject does not load analytics');
+s.consent(true); assert.equal(s.tags.length, 1, 'Accept loads a single tag');
+s.consent(true); assert.equal(s.tags.length, 1, 'Repeated acceptance does not duplicate tag');
+assert.equal(s.context['ga-disable-G-TVKCWCVX87'], false);
+const config = s.context.dataLayer.find(args => args[0] === 'config')[2];
+assert.equal(config.page_location, 'https://mavocado.design/contact.html', 'Analytics URL excludes query parameters');
+s.emit('mavocado:form-success', {detail: {kind: 'project'}});
+assert.equal(s.context.dataLayer.at(-1)[0], 'event');
+s.consent(false); assert.equal(s.context['ga-disable-G-TVKCWCVX87'], true, 'Withdrawal disables the existing tracker');
+const length = s.context.dataLayer.length;
+s.emit('mavocado:form-success', {detail: {kind: 'project'}});
+assert.equal(s.context.dataLayer.length, length, 'No custom events after withdrawal');
+s.consent(true); assert.equal(s.tags.length, 1, 'Reaccept uses existing configured tracker');
+assert.equal(setup('127.0.0.1', true).tags.length, 0, 'Local preview never loads production analytics');
+assert.equal(setup('mavocado.design', true).tags.length, 1, 'Saved acceptance enables production tag');
+console.log('Consent-gated analytics checks passed: default deny, rejection, opt-in, deduplication, withdrawal, recovery and local preview guard.');
