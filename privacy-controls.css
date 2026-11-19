@@ -1,5 +1,5 @@
 /* Shared footer links and privacy choices. No external dependencies. */
-.footer-legal{display:flex!important;grid-column:1/-1;gap:17px 27px;flex-wrap:wrap;align-items:center;padding:24px 0 0;margin:25px 0 0;border-top:1px solid #ffffff1a;min-width:0}
+.footer-legal{display:flex!important;grid-column:1/-1;gap:17px 27px;flex-wrap:wrap;align-items:center;justify-content:center!important;text-align:center;box-sizing:border-box;width:100%;max-width:1400px;padding:24px 24px 80px!important;margin:25px auto 0!important;border-top:1px solid #ffffff1a;min-width:0}
 .footer-legal a,.footer-legal button{font:inherit;font-size:14px!important;line-height:1.5;color:#aaa!important;text-decoration:none!important;background:none;border:0;padding:0;cursor:pointer;white-space:normal}
 .footer-legal a:hover,.footer-legal button:hover{color:#c1f10b!important}
 .privacy-banner[hidden]{display:none!important}
@@ -34,3 +34,5 @@
 .privacy-dialog .privacy-switch input{width:20px!important;height:20px!important;min-height:20px!important;max-width:20px!important;margin:0!important;padding:0!important;flex:none!important;box-shadow:none!important;border-radius:3px!important}
 
 .policy-form-note{font-size:12px!important;line-height:1.65!important;color:#999!important;margin:16px 0 0!important;grid-column:1/-1}.policy-form-note a{color:inherit!important;text-decoration:underline!important;text-underline-offset:3px}
+
+@media(max-width:600px){.footer-legal{justify-content:center!important;padding-inline:20px!important;padding-bottom:80px!important;text-align:center}}
