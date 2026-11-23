@@ -136,7 +136,7 @@
  const proofObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){animateNumber(entry.target);proofObserver.unobserve(entry.target);}}),{threshold:.5});
  function animateNumber(el){if(reduced.matches)return;const target=el.dataset.target||el.textContent;el.dataset.target=target;el.setAttribute('aria-label',target);const m=target.match(/^(\d+)(.*)$/);if(!m)return;cancelAnimationFrame(el.countFrame||0);const end=+m[1],tail=m[2],start=performance.now();function tick(now){const t=Math.min(1,(now-start)/1800),ease=1-Math.pow(1-t,3);el.textContent=Math.round(end*ease)+tail;if(t<1)el.countFrame=requestAnimationFrame(tick);else el.textContent=target;}el.countFrame=requestAnimationFrame(tick);}
  document.querySelectorAll('.proof-strip strong').forEach(el=>{proofObserver.observe(el);let last=0;el.parentElement.addEventListener('pointerenter',()=>{if(performance.now()-last>2400){last=performance.now();animateNumber(el);}});});
- function updateIndiaTime(){document.querySelector('.india-time').textContent=new Intl.DateTimeFormat('en-GB',{hour:'2-digit',minute:'2-digit',timeZone:'Asia/Kolkata'}).format(new Date());}updateIndiaTime();setInterval(updateIndiaTime,60000);
+ function updateIndiaTime(){const clock=document.querySelector('.india-time');if(!clock)return;clock.textContent=new Intl.DateTimeFormat('en-GB',{hour:'2-digit',minute:'2-digit',timeZone:'Asia/Kolkata'}).format(new Date());}updateIndiaTime();setInterval(updateIndiaTime,60000);
  // Native project and audit dialogs preserve the existing enquiry destination.
  document.querySelectorAll('dialog').forEach(dialog=>{
   let opener;
