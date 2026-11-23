@@ -12,6 +12,10 @@ Prepared: 23 November 2026
 
 No publishing or repository push has been performed. Your existing CNAME, DNS configuration and deployment workflow are intentionally excluded from this package.
 
+## Sharp-edge button correction
+
+Services, Blogs, Studio and Contact now load sharp-controls-64.css after their other styles. Primary and secondary buttons, header/footer CTAs, arrow controls, filters and dialog buttons have zero corner radius. The same stylesheet is included on the earlier updated portfolio pages for consistency. Browser-checked 113 controls across the four requested pages, including the audit dialog.
+
 ## Changes
 
 - Veyara Jewels is first on Home and Work; Kesar & Kin is second.
