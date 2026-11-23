@@ -1,0 +1,7 @@
+/* Mockup frames are transparent: the shot supplies its own background. */
+html body .case-cover,html body .case-cover .case-zoom,html body .case-cover img,html body .case-cover button,html body #experience .cs-shot,html body #experience .case-zoom{background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important}
+html body .case-cover img{display:block!important;width:100%!important;height:auto!important;max-height:none!important;aspect-ratio:auto!important;object-fit:contain!important;transform:none!important;position:static!important}
+html body .pip-palette>span::before{content:none!important;display:none!important;border:0!important}
+html body .hero-gallery .gallery-card,html body .hero-gallery .gallery-card img{background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important}
+html body .hero-gallery .gallery-card img{object-fit:contain!important;object-position:center!important;transform:none!important}
+html body .hero-gallery .gallery-card{aspect-ratio:3/2!important}

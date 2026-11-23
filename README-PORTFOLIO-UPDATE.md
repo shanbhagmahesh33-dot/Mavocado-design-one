@@ -12,6 +12,16 @@ Prepared: 23 November 2026
 
 No publishing or repository push has been performed. Your existing CNAME, DNS configuration and deployment workflow are intentionally excluded from this package.
 
+## Mockup frame and hero strip correction
+
+- Removed solid backgrounds and rounded image corners from cover frames, eliminating the SOVEN colour mismatch and Veyara blue corner artefacts.
+- Removed the decorative outlined square inside colour palette cards.
+- Removed class-based colour fills from both ribbon renderers; each image now supplies its own background.
+- The hero ribbon now cycles through all 16 unique projects, including VELAR, Nothing Pay, BackBar and DischargeReady.
+- Complete images are scaled proportionally with contain sizing, including app and SaaS shots with different aspect ratios.
+- Updated home-dark.js to v65 in page references so the new ribbon code bypasses the older cached version.
+- Verified desktop and mobile ribbon rendering, all 16 image loads, transparent square cover frames, clean palette cards and retained sharp controls.
+
 ## Sharp-edge button correction
 
 Services, Blogs, Studio and Contact now load sharp-controls-64.css after their other styles. Primary and secondary buttons, header/footer CTAs, arrow controls, filters and dialog buttons have zero corner radius. The same stylesheet is included on the earlier updated portfolio pages for consistency. Browser-checked 113 controls across the four requested pages, including the audit dialog.
